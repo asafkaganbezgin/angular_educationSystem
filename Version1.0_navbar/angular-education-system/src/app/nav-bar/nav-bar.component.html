@@ -1,0 +1,19 @@
+<mat-toolbar color="primary" class = "nav-bar">
+  <mat-toolbar-row>
+    <div class = "user-info">
+      <span>{{userName}} {{userSurname}}  |  {{userGroup}}</span>
+    </div>
+    <div class = "user-roles">
+      <ul *ngFor = "let string of this.rolesArray">
+        <li>
+          <button mat-button>{{string}}</button>
+        </li>
+      </ul>
+    </div>
+    <div class = "logout">
+      <button mat-flat-button id = "lgt-btn" [routerLink] = "'/login'">Logout</button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+

@@ -1,0 +1,37 @@
+.login {
+  padding-top: 8%;
+  padding-left: 37%;
+  width: 975px;
+  position: absolute;
+}
+
+.header-form {
+  color: #673ab7;
+  padding: 0 0 7%;
+}
+
+.login-form {
+  width: 30%;
+  background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
+  no-repeat center center fixed;
+  padding: 3% 2% 10%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+mat-form-field {
+  width: 262px;
+}
+
+td {
+  padding-left: 5%;
+}
+
+.login-button {
+  width: 200px;
+  height: 45px;
+  font-size: 125%;
+}
+
+
+

@@ -1,0 +1,50 @@
+<form class = "login">
+  <div class = "login-form">
+    <h2 class = "header-form">Education System | Login</h2>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field appearance="outline">
+          <mat-label>E-Mail</mat-label>
+          <input matInput
+                 placeholder = "Email"
+                 type = "email"
+                 ngModel name = "mail"
+                 email = "true"
+                 #mail = "ngModel"
+                 [(ngModel)] = "formUser.email">
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput
+                 placeholder = "Password"
+                 type = "password"
+                 ngModel name = "password"
+                 [(ngModel)] = "formUser.password">
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <button mat-raised-button
+            color="primary"
+            class = "login-button"
+            [disabled] = "!mail.valid"
+            (click) = "onClickMe()">Login</button>
+  </div>
+</form>
+
+
+<button (click) = "listButton()"></button>
+<div *ngIf = "this.listUserArray">
+  <ul *ngFor = "let user of this.listUserArray">
+    <li>{{user.email}}</li>
+  </ul>
+</div>
+
+
