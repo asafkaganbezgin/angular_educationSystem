@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(211, 211, 211, 0.3), rgba(255, 0, 150, 0.3)),
+        url(../assets/login_background.jpg) no-repeat center center fixed #000;
+    background-size: cover;
+    font-family: Bahnschrift, monospace;
+    overflow: hidden;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: floralwhite;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 20px;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20%;
+    position: absolute;
+    top: -12%;
+    left: calc(50% - 50px);
+    background: lightpink;
+}
+
+h1 {
+    margin-top: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type = "text"], input[type = "password"] {
+    border: none;
+    border-bottom: 1px solid purple;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+}
+
+.loginbox input[type = "button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: deeppink;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 9px #999;
+}
+
+.loginbox input[type = "button"]:hover {
+    cursor: pointer;
+    background: dodgerblue;
+    color: white;
+}
+
+.loginbox input[type = "button"]:active {
+    background-color: purple;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgray;
+    text-align: center;
+}
+
+.loginbox a:hover {
+    color: purple;
+}

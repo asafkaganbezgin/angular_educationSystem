@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Bahnschrift, monospace;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(211, 211, 211, 0.3), rgba(255, 0, 150, 0.3)),
+        url(../assets/login_background.jpg) no-repeat center center fixed #000;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav .userType {
+    float: left;
+    padding: 10px 30px;
+    border: 4px solid transparent;
+}
+
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: -10%;
+}
+
+li {
+    padding: 10px 50px;
+    display: inline-block;
+    border: 4px solid transparent;
+}
+
+.notActive {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+li:hover {
+    resize: none;
+    padding: auto;
+    display: inline;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+nav a {
+    align-items: end;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    border: 4px solid transparent;
+}
+
+.mainPanel {
+    background-color: floralwhite;
+    height: 100%;
+    width: 85%;
+    margin: 70px auto;
+}
+
+.panelItem {
+    padding: 10%;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.dropButton {
+    width: 20px;
+    height: 20px;
+}
+
+.dropButton:focus {
+    outline: 0;
+}
+
+.register-left {
+    height: 100vh;
+    width: 100%;
+    /*left: 0;*/
+}
+
+/*.register-right {*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    */
+/*}*/
+

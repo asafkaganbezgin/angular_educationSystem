@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b4f4676-4655-4eff-9ce7-521750046326" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/educationsystem?useLegacyDatetimeCode=false&amp;serverTimezone=Europe/Istanbul" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/educationsystem?useLegacyDatetimeCode=false&amp;serverTimezone=Europe/Istanbul" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/educationsystem?useLegacyDatetimeCode=false&amp;serverTimezone=Europe/Istanbul" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="educationsystem: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="EducationSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Api/get-roles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loginbox</find>
+      <find>formbox</find>
+      <find>server.php</find>
+      <find>nav__links</find>
+      <find>dropButton</find>
+      <find>userArray</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>formbox</replace>
+      <replace>loginbox</replace>
+      <replace>menu</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/login/style.css" />
+        <option value="$PROJECT_DIR$/javascript/login.js" />
+        <option value="$PROJECT_DIR$/database.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/signup.css" />
+        <option value="$PROJECT_DIR$/dologin.php" />
+        <option value="$PROJECT_DIR$/server.php" />
+        <option value="$PROJECT_DIR$/css/signUp.css" />
+        <option value="$PROJECT_DIR$/doSignUp.php" />
+        <option value="$PROJECT_DIR$/hidden.php" />
+        <option value="$PROJECT_DIR$/signUp.php" />
+        <option value="$PROJECT_DIR$/youTube.php" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/instructorHome.php" />
+        <option value="$PROJECT_DIR$/teachingAssistantHome.php" />
+        <option value="$PROJECT_DIR$/css/home.css" />
+        <option value="$PROJECT_DIR$/css/login.css" />
+        <option value="$PROJECT_DIR$/dropLesson.php" />
+        <option value="20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures.sql" />
+        <option value="$PROJECT_DIR$/doLogOut.php" />
+        <option value="$PROJECT_DIR$/customSelect.js" />
+        <option value="$PROJECT_DIR$/JavaScript/customSelect.js" />
+        <option value="$PROJECT_DIR$/css/customSelect.css" />
+        <option value="$PROJECT_DIR$/css/studentHome.css" />
+        <option value="$PROJECT_DIR$/studentHome.php" />
+        <option value="$PROJECT_DIR$/doLogin.php" />
+        <option value="$PROJECT_DIR$/User.php" />
+        <option value="$PROJECT_DIR$/UserController.php" />
+        <option value="$PROJECT_DIR$/services/studentlist.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/Api/student-home.php" />
+        <option value="$PROJECT_DIR$/Api/userList.php" />
+        <option value="$PROJECT_DIR$/Api/loginService.php" />
+        <option value="$PROJECT_DIR$/Api/get-roles.php" />
+        <option value="$PROJECT_DIR$/settings.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3.5">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../bin/php/php5.6.40" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EducationSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EducationSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EducationSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EducationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Api" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\EducationSystem\Api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\EducationSystem\JavaScript" />
+      <recent name="C:\Users\asafk\PhpstormProjects\StudentSystem\assets" />
+      <recent name="C:\Users\asafk\PhpstormProjects\StudentSystem\loginPictures" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="youTube.php" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b4f4676-4655-4eff-9ce7-521750046326" name="Default Changelist" comment="" />
+      <created>1560844323398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560844323398</updated>
+      <workItem from="1560844324525" duration="96000" />
+      <workItem from="1560844593798" duration="12665000" />
+      <workItem from="1560863033630" duration="4927000" />
+      <workItem from="1560887546796" duration="176000" />
+      <workItem from="1560927039001" duration="11364000" />
+      <workItem from="1560946701143" duration="220000" />
+      <workItem from="1560947036898" duration="5489000" />
+      <workItem from="1561010073022" duration="5908000" />
+      <workItem from="1561019945094" duration="2891000" />
+      <workItem from="1561032683563" duration="14000" />
+      <workItem from="1561096762152" duration="13904000" />
+      <workItem from="1561116327929" duration="1024000" />
+      <workItem from="1561117371995" duration="1945000" />
+      <workItem from="1561119344195" duration="6853000" />
+      <workItem from="1561243812016" duration="133000" />
+      <workItem from="1561244043015" duration="32000" />
+      <workItem from="1561468218990" duration="4083000" />
+      <workItem from="1561616462066" duration="24449000" />
+      <workItem from="1561702383850" duration="18224000" />
+      <workItem from="1561849854498" duration="3743000" />
+      <workItem from="1561961578289" duration="21163000" />
+      <workItem from="1562046824678" duration="19687000" />
+      <workItem from="1562073960548" duration="3019000" />
+      <workItem from="1562134139980" duration="9491000" />
+      <workItem from="1562151953005" duration="234000" />
+      <workItem from="1562660445119" duration="1593000" />
+      <workItem from="1562662473660" duration="343000" />
+      <workItem from="1562668451943" duration="438000" />
+      <workItem from="1562678096686" duration="630000" />
+      <workItem from="1562678783337" duration="310000" />
+      <workItem from="1562827026736" duration="1346000" />
+      <workItem from="1562852013506" duration="352000" />
+      <workItem from="1562934702279" duration="2470000" />
+      <workItem from="1563260352394" duration="5908000" />
+      <workItem from="1563362420652" duration="8285000" />
+      <workItem from="1563431402724" duration="12830000" />
+      <workItem from="1563477665919" duration="3233000" />
+      <workItem from="1563516669767" duration="19643000" />
+      <workItem from="1563654872379" duration="2866000" />
+      <workItem from="1563735230645" duration="4000" />
+      <workItem from="1563779707771" duration="13441000" />
+      <workItem from="1563867125480" duration="4921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="250410000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.50340134" side_tool="true" weight="0.2295302" />
+      <window_info id="Favorites" order="1" sideWeight="0.50340134" side_tool="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49659863" visible="true" weight="0.27315435" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.5835694" />
+      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.31879196" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d63fee7-1760-49c1-a8de-3778023fb483/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/572daaf1-7eff-47ef-b8cc-8c58c1c865e9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/database.php" />
+    <entry file="file://$PROJECT_DIR$/login/login.php" />
+    <entry file="file://$PROJECT_DIR$/login/user-laptop-512.png" />
+    <entry file="file://$PROJECT_DIR$/login/13-11-02-olb-by-RalfR-03.jpg" />
+    <entry file="file://$PROJECT_DIR$/login/style.css" />
+    <entry file="file://$PROJECT_DIR$/assets/user_laptop.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/login_background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/login.js" />
+    <entry file="das://572daaf1-7eff-47ef-b8cc-8c58c1c865e9/schema/studentsystem/table/users_1" />
+    <entry file="file://$PROJECT_DIR$/server.php" />
+    <entry file="das://572daaf1-7eff-47ef-b8cc-8c58c1c865e9/schema/studentsystem/table/users.sql" />
+    <entry file="das://572daaf1-7eff-47ef-b8cc-8c58c1c865e9/schema/studentsystem/table/users" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/20d00774-7dc9-4668-b86b-0fbc50fc33ca/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures/index/PK, FK">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youTube.php" />
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures/index/users-lectures_grades_code_fk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures/index/users-lectures_users_user_id_fk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/groups-roles/index/PK, FK">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teachingAssistantHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/20d00774-7dc9-4668-b86b-0fbc50fc33ca.SCHEMA:educationsystem">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>20d00774-7dc9-4668-b86b-0fbc50fc33ca.SCHEMA:educationsystem</OriginalElement>
+          <nodes>
+            <node x="271.0" y="276.0">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.grades</node>
+            <node x="134.0" y="330.5">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups</node>
+            <node x="480.32142857142856" y="77.0">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.lectures</node>
+            <node x="75.05952380952382" y="551.0">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups-roles</node>
+            <node x="0.0" y="341.5">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.roles</node>
+            <node x="235.82142857142858" y="0.0">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users</node>
+            <node x="463.0" y="353.0">20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users-lectures</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.grades" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.lectures">
+              <point x="43.0" y="-112.5" />
+              <point x="400.0" y="256.0" />
+              <point x="508.32142857142856" y="256.0" />
+              <point x="-28.0" y="36.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.grades" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users">
+              <point x="-43.0" y="-112.5" />
+              <point x="314.0" y="256.0" />
+              <point x="308.82142857142856" y="256.0" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users-lectures" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.lectures">
+              <point x="35.5" y="-35.5" />
+              <point x="569.5" y="256.0" />
+              <point x="564.3214285714287" y="256.0" />
+              <point x="28.0" y="36.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups-roles" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups">
+              <point x="31.5" y="-35.5" />
+              <point x="169.55952380952382" y="526.0" />
+              <point x="192.5" y="526.0" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups-roles" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.roles">
+              <point x="-31.5" y="-35.5" />
+              <point x="106.55952380952382" y="526.0" />
+              <point x="57.0" y="526.0" />
+              <point x="0.0" y="47.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.groups" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users">
+              <point x="0.0" y="-58.0" />
+              <point x="192.5" y="256.0" />
+              <point x="260.1547619047619" y="256.0" />
+              <point x="-48.66666666666666" y="113.0" />
+            </edge>
+            <edge source="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users-lectures" target="20d00774-7dc9-4668-b86b-0fbc50fc33ca.TABLE:educationsystem.users">
+              <point x="-35.5" y="-35.5" />
+              <point x="498.5" y="246.0" />
+              <point x="357.48809523809524" y="246.0" />
+              <point x="48.66666666666666" y="113.0" />
+            </edge>
+          </edges>
+          <settings layout="Hıerarchıc Group" zoom="1.0" x="129.0" y="224.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users-lectures">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="98cc61a3-9d48-45d6-8620-8ad027bcc581">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User.php" />
+    <entry file="file://$PROJECT_DIR$/services/studentlist.php" />
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/grades">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="0d9e12a4-e9c6-4cdf-b991-f4d819f999bb">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/customSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/customSelect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructorHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/signUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropLesson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doSignUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="58e61bba-2d65-4e14-ad50-3c75c073ad1e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/studentHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="125" selection-start-line="125" selection-end-line="125" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/student-home.php" />
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/lectures">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8715c8de-939d-4756-ab20-b28bd089c433">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/groups-roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8715c8de-939d-4756-ab20-b28bd089c433">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/groups">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8715c8de-939d-4756-ab20-b28bd089c433">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://20d00774-7dc9-4668-b86b-0fbc50fc33ca/schema/educationsystem/table/roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8715c8de-939d-4756-ab20-b28bd089c433">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="145" column="117" lean-forward="true" selection-start-line="145" selection-start-column="117" selection-end-line="145" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doLogOut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/userList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/loginService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/get-roles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
