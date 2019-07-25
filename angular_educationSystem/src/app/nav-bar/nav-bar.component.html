@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" class = "nav-bar">
+<mat-toolbar color="primary" class = "nav-bar mat-elevation-z7">
   <mat-toolbar-row>
     <div class = "user-info">
       <span>{{userName}} {{userSurname}}  |  {{userGroup}}</span>
@@ -6,7 +6,7 @@
     <div class = "user-roles">
       <ul *ngFor = "let string of this.rolesArray">
         <li>
-          <button mat-button>{{string}}</button>
+          <button mat-button (click)="onClick($event)">{{string}}</button>
         </li>
       </ul>
     </div>
@@ -15,5 +15,3 @@
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
-
-

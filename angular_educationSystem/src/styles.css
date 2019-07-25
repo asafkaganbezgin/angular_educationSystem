@@ -57,3 +57,25 @@ app-instructor-home {
   background-size: cover;
   height: 100vh;
 }
+
+app-drop-course-table {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: block;
+  background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
+  no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+app-add-course {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: block;
+  background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
+  no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}

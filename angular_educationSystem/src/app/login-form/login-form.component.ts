@@ -72,11 +72,4 @@ export class LoginFormComponent implements OnInit {
       });
     }
   }
-
-  // listButton() {
-  //   this.auth.getUserList().subscribe((users: User[]) => {
-  //     console.log('php servisinden donen deger', users);
-  //     this.listUserArray = users;
-  //   });
-  // }
 }

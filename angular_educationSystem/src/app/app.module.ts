@@ -18,7 +18,9 @@ import { AuthorizationService } from './services/authorization-service';
 import { TeachingAssistantHomeComponent } from './teaching-assistant-home/teaching-assistant-home.component';
 import { InstructorHomeComponent } from './instructor-home/instructor-home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { ShowGradesComponent } from './show-grades/show-grades.component';
+import { GradesTableComponent} from './grades-table/grades-table.component';
+import { DropCourseTableComponent } from './drop-course-table/drop-course-table.component';
+import { AddCourseComponent } from './add-course/add-course.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ShowGradesComponent } from './show-grades/show-grades.component';
     TeachingAssistantHomeComponent,
     InstructorHomeComponent,
     NavBarComponent,
-    ShowGradesComponent
+    GradesTableComponent,
+    DropCourseTableComponent,
+    AddCourseComponent
   ],
   imports: [
     BrowserModule,
@@ -52,6 +56,21 @@ import { ShowGradesComponent } from './show-grades/show-grades.component';
       {
         path: 'student-home',
         component: StudentHomeComponent,
+        canActivate: [AuthorizationGuard]
+      },
+      {
+        path: 'student-home/showGrades',
+        component: GradesTableComponent,
+        canActivate: [AuthorizationGuard]
+      },
+      {
+        path: 'student-home/dropCourse',
+        component: DropCourseTableComponent,
+        canActivate: [AuthorizationGuard]
+      },
+      {
+        path: 'student-home/addCourse',
+        component: AddCourseComponent,
         canActivate: [AuthorizationGuard]
       },
       {

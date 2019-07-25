@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthorizationService } from '../services/authorization-service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -14,7 +15,7 @@ export class NavBarComponent implements OnInit {
 
   rolesArray: string[];
 
-  constructor(private auth: AuthorizationService) { }
+  constructor(private auth: AuthorizationService, private router: Router) { }
 
   ngOnInit() {
     this.storeRoles();
@@ -25,6 +26,17 @@ export class NavBarComponent implements OnInit {
     this.auth.getRoles().subscribe((data: any) => {
       this.rolesArray = data.roles;
     });
+  }
+
+  /* Navigating with the links on the nav bar. */
+  onClick($event): void {
+    if ( $event.toElement.innerText === 'Join Course') {
+      this.router.navigate(['/student-home/addCourse']);
+    } else if ($event.toElement.innerText === 'Drop Course') {
+      this.router.navigate(['/student-home/dropCourse']);
+    } else if ($event.toElement.innerText === 'Show Grades') {
+      this.router.navigate(['/student-home']);
+    }
   }
 }
 

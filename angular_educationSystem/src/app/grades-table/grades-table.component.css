@@ -3,4 +3,7 @@
 table {
   margin: 3% 0 0 20%;
   width: 60%;
+  vertical-align: center;
+  horiz-align: center;
+  table-layout: fixed;
 }
