@@ -19,9 +19,7 @@ $numberOfRows = $data->num_rows;
 if($numberOfRows == 0) {
     $noValArr = array("data" => null);
     echo json_encode($noValArr);
-}
-else {
-
+} else {
     /* Grades array to be filled. */
     $gradesOfStudent = array();
     /* Variables returned to angular side. */

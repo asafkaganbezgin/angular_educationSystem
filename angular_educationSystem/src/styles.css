@@ -59,10 +59,10 @@ app-instructor-home {
 }
 
 app-drop-course-table {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  display: block;
+  /*order: 0;*/
+  /*flex: 1 1 auto;*/
+  /*align-self: auto;*/
+  display: flex;
   background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
   no-repeat center center fixed;
   background-size: cover;
@@ -70,10 +70,21 @@ app-drop-course-table {
 }
 
 app-add-course {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  display: block;
+  /*order: 0;*/
+  /*flex: 1 1 auto;*/
+  /*align-self: auto;*/
+  display: flex;
+  background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
+  no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+app-grades-table {
+  /*order: 0;*/
+  /*flex: 1 1 auto;*/
+  /*align-self: auto;*/
+  display: flex;
   background: linear-gradient(180deg, floralwhite, antiquewhite, pink),
   no-repeat center center fixed;
   background-size: cover;

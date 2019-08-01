@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GradesService } from '../services/grades.service';
+import { CourseService } from '../services/course.service';
 
 /* Interface to read the variables from the json file returned from the server. */
 export interface IGradeType {
@@ -25,7 +25,7 @@ export class GradesTableComponent implements OnInit {
 
   private dataSource;
 
-  constructor(private grade: GradesService) { }
+  constructor(private grade: CourseService) { }
 
   /* Show grades method called in ngOnInit() function to get the grades
   *   of the student immediately after the login. */

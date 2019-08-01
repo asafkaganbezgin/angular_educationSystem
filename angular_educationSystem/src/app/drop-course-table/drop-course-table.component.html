@@ -1,3 +1,46 @@
-<app-nav-bar></app-nav-bar>
+<div class="drop-course">
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
-<p>drop-course-table works!</p>
+    <!-- Checkbox Column -->
+    <ng-container matColumnDef="select">
+      <th mat-header-cell *matHeaderCellDef>
+        <mat-checkbox (change)="$event ? masterToggle() : null"
+                      [checked]="selection.hasValue() && isAllSelected()"
+                      (change)="getSelectedRowAmount()"
+                      [indeterminate]="selection.hasValue() && !isAllSelected()"
+                      [aria-label]="checkboxLabel()">
+        </mat-checkbox>
+      </th>
+      <td mat-cell *matCellDef="let row">
+        <mat-checkbox (click)="$event.stopPropagation()"
+                      (change)="$event ? selection.toggle(row) : null"
+                      [checked]="selection.isSelected(row)"
+                      (change) ="getSelectedRowAmount()"
+                      [aria-label]="checkboxLabel(row)">
+        </mat-checkbox>
+      </td>
+    </ng-container>
+
+    <!-- Course Column -->
+    <ng-container matColumnDef="course">
+      <th mat-header-cell *matHeaderCellDef> Course </th>
+      <td mat-cell *matCellDef="let element"> {{element}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+        (click)="selection.toggle(row)">
+    </tr>
+  </table>
+
+  <!-- Button to drop courses after selecting one or more rows from the table. -->
+  <div class="drop-button">
+    <button class="drop-button"
+            mat-raised-button
+            [disabled]="!isAnySelected()"
+            (click)="sendCourses()"
+            color="accent">Drop Course</button>
+  </div>
+
+</div>
+

@@ -1,3 +1,20 @@
-<app-nav-bar></app-nav-bar>
+<div class="header">
+  <h3>Currently Available Courses</h3>
+</div>
 
-<p>add-course works!</p>
+<div class="courses">
+  <div class="list">
+    <mat-selection-list #selectCourse class="mat-elevation-z7">
+      <mat-list-option *ngFor="let course of availableCourses">
+        {{course}}
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+  <div class="btn">
+    <button class="add-button"
+            mat-raised-button
+            color="accent"
+            [disabled]="(selectCourse.selectedOptions.selected.length == 0)"
+            (click)="addCourses(selectCourse.selectedOptions)">Add Course</button>
+  </div>
+</div>

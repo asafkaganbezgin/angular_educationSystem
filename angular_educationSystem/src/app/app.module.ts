@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule, MatIconModule, MatToolbarModule, MatTableModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatToolbarModule, MatTableModule, MatCheckboxModule,  } from '@angular/material';
+import { MatListModule } from '@angular/material/list';
 
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
@@ -44,48 +45,11 @@ import { AddCourseComponent } from './add-course/add-course.component';
     MatButtonModule,
     MatIconModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      {
-        path: '',
-        component: LoginFormComponent
-      },
-      {
-        path: 'login',
-        component: LoginFormComponent
-      },
-      {
-        path: 'student-home',
-        component: StudentHomeComponent,
-        canActivate: [AuthorizationGuard]
-      },
-      {
-        path: 'student-home/showGrades',
-        component: GradesTableComponent,
-        canActivate: [AuthorizationGuard]
-      },
-      {
-        path: 'student-home/dropCourse',
-        component: DropCourseTableComponent,
-        canActivate: [AuthorizationGuard]
-      },
-      {
-        path: 'student-home/addCourse',
-        component: AddCourseComponent,
-        canActivate: [AuthorizationGuard]
-      },
-      {
-        path: 'teaching-assistant-home',
-        component: TeachingAssistantHomeComponent,
-        canActivate: [AuthorizationGuard]
-      },
-      {
-        path: 'instructor-home',
-        component: InstructorHomeComponent,
-        canActivate: [AuthorizationGuard]
-      }
-    ]),
+    RouterModule.forRoot([]),
     MatToolbarModule,
-    MatTableModule
+    MatTableModule,
+    MatCheckboxModule,
+    MatListModule
   ],
   providers: [AuthorizationService, AuthorizationGuard],
   bootstrap: [AppComponent]

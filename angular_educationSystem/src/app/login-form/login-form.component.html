@@ -38,13 +38,3 @@
             (click) = "onClickMe()">Login</button>
   </div>
 </form>
-
-
-<button (click) = "listButton()"></button>
-<div *ngIf = "this.listUserArray">
-  <ul *ngFor = "let user of this.listUserArray">
-    <li>{{user.email}}</li>
-  </ul>
-</div>
-
-

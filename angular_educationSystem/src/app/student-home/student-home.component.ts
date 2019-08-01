@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {AppComponent} from '../app.component';
 
 @Component({
   selector: 'app-student-home',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentHomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private nav: AppComponent) {
+    this.nav.setDisplayNav(true);
+  }
 
   ngOnInit() {
-
+    this.router.navigate(['student-home/showGrades']);
   }
 }

@@ -1,1 +1,8 @@
+<!-- Fixed navigation bar. The elements comes before router outlet are refreshed  -->
+<!-- once. However, if the components are listed after router outlet, every time a navigation -->
+<!-- occurs, the entire page is refreshed. Therefore, the navBar is kept between a div element -->
+<!-- later to be displayed and hid throughout the program. -->
+<div *ngIf="displayNav">
+  <app-nav-bar></app-nav-bar>
+</div>
 <router-outlet></router-outlet>

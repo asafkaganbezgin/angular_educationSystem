@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthorizationService } from '../services/authorization-service';
 import { Router } from '@angular/router';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-nav-bar',
@@ -15,7 +16,7 @@ export class NavBarComponent implements OnInit {
 
   rolesArray: string[];
 
-  constructor(private auth: AuthorizationService, private router: Router) { }
+  constructor(private auth: AuthorizationService, private router: Router, private nav: AppComponent) { }
 
   ngOnInit() {
     this.storeRoles();
@@ -33,10 +34,14 @@ export class NavBarComponent implements OnInit {
     if ( $event.toElement.innerText === 'Join Course') {
       this.router.navigate(['/student-home/addCourse']);
     } else if ($event.toElement.innerText === 'Drop Course') {
-      this.router.navigate(['/student-home/dropCourse']);
+      this.router.navigate(['student-home/dropCourse']);
     } else if ($event.toElement.innerText === 'Show Grades') {
-      this.router.navigate(['/student-home']);
+      this.router.navigate(['student-home/showGrades']);
     }
   }
-}
 
+  /* When logging out, the nav bar should be set hidden. */
+  logOut(): void {
+    this.nav.setDisplayNav(false);
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  /*background-color: blue;*/
+  text-align: center;
+  padding-top: 2%;
+}
+
+.courses {
+  position: absolute;
+  top: 21%;
+  width: 100%;
+  height: 50%;
+  /*background-color: red;*/
+  padding-top: 1%;
+}
+
+.courses .list {
+  margin-left: 35%;
+}
+
+.courses mat-selection-list {
+  width: 43%;
+  height: 43%;
+  background-color: white;
+  padding: 1% 1% 1% 1%;
+}
+
+.btn {
+  /*background-color: deeppink;*/
+  padding-top: 5%;
+}
+
+.btn .add-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

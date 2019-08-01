@@ -18,8 +18,7 @@ export class AuthorizationService {
   private password;
   private group;
 
-  constructor(private httpClient: HttpClient) {
-  }
+  constructor(private httpClient: HttpClient) {}
 
   /* Posting user inputs to php side to make necessary controls in the backend. */
   loginUser(user: User): Observable<User> {
@@ -83,7 +82,4 @@ export class AuthorizationService {
     return this.group;
   }
 
-  // getUserList(): Observable<User[]> {
-  //   return this.httpClient.post<User[]>('http://localhost/educationSystem/api/userList.php', {}, {});
-  // }
 }

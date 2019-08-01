@@ -13,8 +13,6 @@ export class LoginFormComponent implements OnInit {
   /* Creating an object formUser to process the login form inputs. */
   formUser: User = new User();
 
-  listUserArray: User[] = null;
-
   /* In order to use AuthorizationService class and Router class, constructor
   *   is defined as below. */
   constructor(private auth: AuthorizationService, private router: Router) {
